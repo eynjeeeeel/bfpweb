@@ -43,10 +43,48 @@
   .nav-flex-icons .nav-link:hover {
     color: #17a2b8;
   }
-  .footer{
-    background-color: #85919d;
-    position:relative;
-  }
+  body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 1em;
+        }
+
+        .album {
+            width: 300px;
+            margin: 1em;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .album:hover {
+            transform: scale(1.05);
+        }
+
+        .album img {
+            width: 100%;
+            height: auto;
+        }
+
+        .album-info {
+            padding: 1em;
+            text-align: center;
+        }
 </style>
 <body>
   <!-- First Navigation Bar -->
@@ -105,27 +143,36 @@
   </nav>
 
   <body>
-    
-    activities
-  </body>
-  <nav class="footer footer-expand-lg footer-dark default-color">
-  <footer class="footer mt-auto py-3 mt-4">
-      <div class="container text-center">
-      <div> <strong> REPUBLIC OF THE PHILIPPINES </strong>
-      <p> All content is in the public domian otherwise stated</p>
-      </div>
-    <div>
-        <p> <strong> Bureau of Fire Protection </strong> <br>
-        Guinobatan, Calapan City, Oriental Mindoro <br>
-        #ValiantFirefightersOfCalapanCity <br>
-        ORIENTAL MINDORO, MIMAROPA</p>
+  <main>
+    <div class="album">
+        <img src="activity1.jpg" alt="Activity 1">
+        <div class="album-info">
+            <h3>Activity 1</h3>
+            <p>Description of Activity 1.</p>
+        </div>
     </div>
-<div><span> <strong> BFP CALAPAN CITY OFFICIAL WEBSITE &copy; 2024 </strong></span></div>
-</footer>
-</nav>
+
+    <div class="album">
+        <img src="activity2.jpg" alt="Activity 2">
+        <div class="album-info">
+            <h3>Activity 2</h3>
+            <p>Description of Activity 2.</p>
+        </div>
+    </div>
+
+    <div class="album">
+        <img src="activity2.jpg" alt="Activity 2">
+        <div class="album-info">
+            <h3>Activity 3</h3>
+            <p>Description of Activity 3.</p>
+        </div>
+    </div>
+</main>
+  </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+<?= view('hf/footer'); ?>
 
