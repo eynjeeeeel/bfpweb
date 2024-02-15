@@ -13,9 +13,6 @@
   .navbar {
     background-color: #ff6347; 
   }
-  .footer{
-    background-color: #e0e0e0;
-  }
 
   .navbar-brand {
     font-size: 1.5rem;
@@ -45,6 +42,10 @@
 
   .nav-flex-icons .nav-link:hover {
     color: #17a2b8;
+  }
+  .footer{
+    background-color: #85919d;
+    position:relative;
   }
 </style>
 <body>
@@ -104,34 +105,39 @@
   </nav>
 
   <body>
-    <h1> Contact Us: </h1>
-    <div class=" text-center ">
-<br>
-<br>
+  <h2>Line Numbers: </h2>
+  <div class=" text-center ">
+    <br>
+    <h5>City Disaster Risk Reduction Management Department (Rescue/Fire)</h5>
+        (043) 288-611 
+        (043) 2887521
+        <br>
+        <h5> Calapan City Fire Station (BFP) </h5>
+        (043) 288-7777 <br>
+        09156031561 <br>
+        09814782880
 
-<h5>Line Numbers: </h5>
-<h5>City Disaster Risk Reduction Management Department (Rescue/Fire)</h5>
-(043) 288-611 
-(043) 2887521
-<br>
-<h5> Calapan City Fire Station (BFP) </h5>
-(043) 288-7777
-
-<h5>Email Address:</h5>
-ofc@bfp.gov.ph (Office of the Chief BFP)
-pis@bfp.gov.ph (Public Information Service)
-    </div>
+    <h5>Email Address:</h5>
+        
+  </div>
   </body>
+
+  <br>
+  <br>
 
   <nav class="footer footer-expand-lg footer-dark default-color">
   <footer class="footer mt-auto py-3 mt-4">
-    <div class="container text-center">
-        <span class="text-muted">BFP CALAPAN CITY OFFICIAL WEBSITE &copy; 2024</span>
-        <p>Bureau of Fire Protection</p>
-        <p>Guinobatan, Calapan City, Oriental Mindoro</p>
-        <p>#ValiantFirefightersOfCalapanCity</p>
-        <p>ORIENTAL MINDORO, MIMAROPA</p>
+      <div class="container text-center">
+      <div> <strong> REPUBLIC OF THE PHILIPPINES </strong>
+      <p> All content is in the public domian otherwise stated</p>
+      </div>
+    <div>
+        <p> <strong> Bureau of Fire Protection </strong> <br>
+        Guinobatan, Calapan City, Oriental Mindoro <br>
+        #ValiantFirefightersOfCalapanCity <br>
+        ORIENTAL MINDORO, MIMAROPA</p>
     </div>
+<div><span> <strong> BFP CALAPAN CITY OFFICIAL WEBSITE &copy; 2024 </strong></span></div>
 </footer>
 </nav>
 

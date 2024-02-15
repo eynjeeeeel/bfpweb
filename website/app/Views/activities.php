@@ -43,6 +43,10 @@
   .nav-flex-icons .nav-link:hover {
     color: #17a2b8;
   }
+  .footer{
+    background-color: #85919d;
+    position:relative;
+  }
 </style>
 <body>
   <!-- First Navigation Bar -->
@@ -104,11 +108,21 @@
     
     activities
   </body>
-  <footer class="footer mt-auto py-3">
-    <div class="container text-center">
-        <span class="text-muted">BFP CALAPAN CITY OFFICIAL WEBSITE &copy; 2024</span>
+  <nav class="footer footer-expand-lg footer-dark default-color">
+  <footer class="footer mt-auto py-3 mt-4">
+      <div class="container text-center">
+      <div> <strong> REPUBLIC OF THE PHILIPPINES </strong>
+      <p> All content is in the public domian otherwise stated</p>
+      </div>
+    <div>
+        <p> <strong> Bureau of Fire Protection </strong> <br>
+        Guinobatan, Calapan City, Oriental Mindoro <br>
+        #ValiantFirefightersOfCalapanCity <br>
+        ORIENTAL MINDORO, MIMAROPA</p>
     </div>
+<div><span> <strong> BFP CALAPAN CITY OFFICIAL WEBSITE &copy; 2024 </strong></span></div>
 </footer>
+</nav>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
