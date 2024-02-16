@@ -145,26 +145,94 @@
   <body>
   <main>
     <div class="album">
-        <img src="activity1.jpg" alt="Activity 1">
+        <img src="images/rank.jpg" alt="Activity 1">
         <div class="album-info">
-            <h3>Activity 1</h3>
-            <p>Description of Activity 1.</p>
+            <h3><strong>Rank Inspection</strong></h3>
         </div>
     </div>
 
     <div class="album">
-        <img src="activity2.jpg" alt="Activity 2">
+        <img src="images/sportsfest.jpg" alt="Activity 2">
         <div class="album-info">
-            <h3>Activity 2</h3>
-            <p>Description of Activity 2.</p>
+            <h3><strong> Sportsfest</strong></h3>
         </div>
     </div>
 
     <div class="album">
-        <img src="activity2.jpg" alt="Activity 2">
+        <img src="images/intern.jpg" alt="Activity 2">
         <div class="album-info">
-            <h3>Activity 3</h3>
-            <p>Description of Activity 3.</p>
+            <h3><strong>Fire Intern</strong></h3>
+            
+        </div>
+    </div>
+    <div class="album">
+        <img src="images/personnel.jpg" alt="Activity 2">
+        <div class="album-info">
+            <h3><strong>Personnel &  Firetruck Visibility/Standby/ <br> Assistance</strong></h3>
+            
+        </div>
+    </div>
+
+    <div class="album">
+        <img src="images/fdas.jpg" alt="Activity 2">
+        <div class="album-info">
+            <h3><strong>FDAS/AFSS/Manual & Automatic <br> Fire Alarm System Testing</strong></h3>
+        </div>
+    </div>
+
+    <div class="album">
+        <img src="images/inspect.jpg" alt="Activity 2">
+        <div class="album-info">
+            <h3><strong>Inspection</strong></h3>
+        </div>
+    </div>
+
+    <div class="album">
+        <img src="images/worship.jpg" alt="Activity 2">
+        <div class="album-info">
+            <h3><strong>Worship</strong></h3>
+        </div>
+    </div>
+
+    <div class="album">
+        <img src="images/drill.jpg" alt="Activity 2">
+        <div class="album-info">
+            <h3><strong>Fire Drill & Safety Seminar</strong></h3>
+        </div>
+    </div>
+
+    <div class="album">
+        <img src="images/flag.jpg" alt="Activity 2">
+        <div class="album-info">
+            <h3><strong>Flag Raising Ceremony</strong></h3>
+        </div>
+    </div>
+
+    <div class="album">
+        <img src="images/water.jpg" alt="Activity 2">
+        <div class="album-info">
+            <h3><strong>Water Assistance</strong></h3>
+        </div>
+    </div>
+
+    <div class="album">
+        <img src="images/skills.jpg" alt="Activity 2">
+        <div class="album-info">
+            <h3><strong>Skills Enhancement Activity</strong></h3>
+        </div>
+    </div>
+
+    <div class="album">
+        <img src="images/PFP.jpg" alt="Activity 2">
+        <div class="album-info">
+            <h3><strong>Physical Fitness Program</strong></h3>
+        </div>
+    </div>
+
+    <div class="album">
+        <img src="images/.jpg" alt="Activity 2">
+        <div class="album-info">
+            <h3><strong></strong></h3>
         </div>
     </div>
 </main>
